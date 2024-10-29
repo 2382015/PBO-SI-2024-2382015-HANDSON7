@@ -1,4 +1,6 @@
 package Abstraksiv2;
 
-public class Cetak {
+public interface Cetak {
+    void print();
+    void scan();
 }

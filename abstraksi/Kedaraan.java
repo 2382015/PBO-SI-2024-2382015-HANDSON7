@@ -1,16 +1,16 @@
 package abstraksi;
 
-import java.sql.SQLOutput;
-
-public class Kedaraan {
+abstract class kendaraan {
     String warna;
 
-    public kendaraan(final String warna){
+    public kendaraan(final String warna) {
         this.warna = warna;
     }
 
-
     abstract void bergerak();
 
-    void info()
-        System.out.println("warna : " + warna );
+    void info() {
+        System.out.println("warna : " + warna);
+    }
+}
+
